@@ -24,3 +24,16 @@
     font-size: 300%;
     box-shadow: 10px 5px 5px #8f1b22;
 }
+
+#fleche-gauche {
+    position: absolute;
+    width: 5%;
+    top: 40%;
+}
+
+#fleche-droite {
+    position: absolute;
+    width: 5%;
+    top: 40%;
+    left: 94.6%;
+}
