@@ -5,3 +5,22 @@
     left: 0%;
     position: absolute;    
 }
+
+@font-face {
+    font-family: "Alex Brush";
+    src: url("AlexBrush-Regular.ttf");
+   }
+   
+
+#titre_expos {
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    font-family: "Alex Brush";
+    width: 35%;
+    height: 22%;
+    background: black;
+    text-align: center;
+    font-size: 300%;
+    box-shadow: 10px 5px 5px #8f1b22;
+}
