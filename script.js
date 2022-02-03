@@ -1,22 +1,35 @@
 var droite = document.getElementById("fleche_droite");
 var gauche = document.getElementById("fleche_gauche");
 var diapo1 = document.getElementById("diapo1");
-var count = 0;
+
+sessionStorage.setItem('diapo', 1);
 
 function fleche_gauche(){
 
-    if (count === 0) {
+    var diapo = sessionStorage.getItem('diapo') - 1;
+
+    if (diapo < 1) {
         alert("Pas de page avant.");
     }
     else {
+
+        alert(diapo);
         diapo1.style.display = "none";
-        var count = count - 1;
     }
 
 }
 
 
 function fleche_droite (){
-    diapo1.style.display = "none";
-    var count = count + 1;
+    //ERREUR : string au lieu de int quand on modifi le - par un +
+    var diapo = sessionStorage.getItem('diapo') + 1;
+
+    if (diapo > 2) {
+        alert("Pas de page après." + typeof(diapo));
+    }
+    else {
+
+        alert(diapo);
+        diapo1.style.display = "none";
+    }
 }
