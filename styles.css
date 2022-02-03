@@ -15,15 +15,19 @@
 #titre_expos {
     position: absolute;
     top: 75%;
-    left: 32%;
+    left: 43%;
     font-family: "Alex Brush";
+    font-size: 500%;
+    color: white;
+}
+
+#cadre {
+    position: absolute;
+    top: 75%;
+    left: 32%;
     width: 35%;
     height: 22%;
-    background: black;
-    text-align: center;
-    font-size: 300%;
-    box-shadow: 10px 5px 5px #8f1b22;
-    color: white;
+    box-shadow: 10px 5px 5px #000000;
 }
 
 #fleche-gauche {
