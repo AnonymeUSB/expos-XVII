@@ -21,15 +21,14 @@ function fleche_gauche(){
 
 
 function fleche_droite (){
-    //ERREUR : string au lieu de int quand on modifi le - par un +
-    var diapo = sessionStorage.getItem('diapo') + 1;
+
+    var diapo = parseInt(sessionStorage.getItem('diapo'));
+    var diapo = diapo + 1;
 
     if (diapo > 2) {
-        alert("Pas de page après." + typeof(diapo));
+        alert("Pas de page après. " + typeof(diapo) + diapo);
     }
     else {
-
-        alert(diapo);
         diapo1.style.display = "none";
     }
 }
