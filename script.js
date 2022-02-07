@@ -6,6 +6,7 @@ sessionStorage.setItem('diapo', 1);
 
 function fleche_gauche(){
 
+    var diapo2 = document.getElementById("diapo2");
     var diapo = sessionStorage.getItem('diapo');
     var diapo = diapo - 1;
 
@@ -14,18 +15,23 @@ function fleche_gauche(){
         var diapo = 1;
     }
     else {
-        diapo1.style.display = "none";
+            if (diapo === 1){
+                diapo1.style.display = "block";
+                diapo2.style.display = "none";
+            }
+            if (diapo === 2) {
+                diapo2.style.display = "block";
+                diapo1.style.display = "none";
+            }
     }
     
-    if (diapo1 === 1){
-        diapo1.style.display = "block";
-    }
     sessionStorage.setItem('diapo', diapo);
 }
 
 
 function fleche_droite (){
-
+    
+    var diapo2 = document.getElementById("diapo2");
     var diapo = parseInt(sessionStorage.getItem('diapo'));
     var diapo = diapo + 1;
 
@@ -35,7 +41,14 @@ function fleche_droite (){
         var diapo = 2;
     }
     else {
-        diapo1.style.display = "none";
+        if (diapo === 1){
+            diapo1.style.display = "block";
+            diapo2.style.display = "none";
+        }
+        if (diapo === 2) {
+            diapo2.style.display = "block";
+            diapo1.style.display = "none";
+        }
     }
 
     sessionStorage.setItem('diapo', diapo);
