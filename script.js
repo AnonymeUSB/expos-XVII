@@ -23,6 +23,11 @@ function fleche_gauche(){
                 diapo2.style.display = "block";
                 diapo1.style.display = "none";
             }
+            if (diapo === 3) {
+                diapo3.style.display = "block";
+                diapo2.style.display = "none";
+                diapo1.style.display = "none";
+            }
     }
     
     sessionStorage.setItem('diapo', diapo);
@@ -32,11 +37,12 @@ function fleche_gauche(){
 function fleche_droite (){
     
     var diapo2 = document.getElementById("diapo2");
+    var diapo3 = document.getElementById("diapo3");
     var diapo = parseInt(sessionStorage.getItem('diapo'));
     var diapo = diapo + 1;
 
 
-    if (diapo > 2) {
+    if (diapo > 3) {
         alert("Pas de page après. ");
         var diapo = 2;
     }
@@ -47,6 +53,11 @@ function fleche_droite (){
         }
         if (diapo === 2) {
             diapo2.style.display = "block";
+            diapo1.style.display = "none";
+        }
+        if (diapo === 3) {
+            diapo3.style.display = "block";
+            diapo2.style.display = "none";
             diapo1.style.display = "none";
         }
     }
