@@ -21,13 +21,31 @@
     color: white;
 }
 
-#cadre {
+#cadre1 {
     position: absolute;
     top: 75%;
     left: 32%;
     width: 35%;
     height: 22%;
     box-shadow: 10px 5px 5px #000000;
+}
+
+#cadre2 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 30%;
+    height: 70%;
+    box-shadow: 10px 5px 5px #000000;
+    opacity: 70%;
+}
+
+#desc2 {
+    position: absolute;
+    font-family: "Alex Brush";
+    top: 25%;
+    left: 13%;
+    font-size: 150%;
 }
 
 #fleche-gauche {
