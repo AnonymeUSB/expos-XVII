@@ -1,5 +1,5 @@
-Nom du théatre : Palais-Cardinal / Palais-Royal
-Date de construction : 1628
-Construit par : Richelieu
+Nom du théatre : Palais-Cardinal / Palais-Royal.
+Date de construction : 1628.
+Construit par : Richelieu.
 description : C'est un grand théatre parisien ou la troupe de Molière s'y est produite pendant une dizaine d'années avant d'être chassé.
 Il a servit de résidence à la régente Anne d'Autriche (1601-1666) et au jeune Louis XIV enfant pendant les troubles de la Fronde et devient le Palais-Royal.
