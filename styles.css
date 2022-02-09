@@ -73,3 +73,13 @@
     width: 40%;
     opacity: 70%;
 }
+
+#cadre3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 30%;
+    height: 60%;
+    box-shadow: 10px 5px 5px #000000;
+    opacity: 70%;
+}
