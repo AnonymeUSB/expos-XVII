@@ -53,6 +53,7 @@
     width: 5%;
     top: 40%;
     box-shadow: 10px 5px 5px #000000;
+    opacity: 50%;
 }
 
 #fleche-droite {
@@ -61,4 +62,14 @@
     top: 40%;
     left: 94%;
     box-shadow: 10px 5px 5px #000000;
+    opacity: 50%;
+}
+
+#img2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 50%;
+    width: 40%;
+    opacity: 70%;
 }
