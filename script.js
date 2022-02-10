@@ -28,6 +28,12 @@ function fleche_gauche(){
                 diapo2.style.display = "none";
                 diapo1.style.display = "none";
             }
+            if (diapo === 4) {
+                diapo4.style.display = "block";
+                diapo3.style.display = "none";
+                diapo2.style.display = "none";
+                diapo1.style.display = "none";
+            }
     }
     
     sessionStorage.setItem('diapo', diapo);
@@ -38,25 +44,34 @@ function fleche_droite (){
     
     var diapo2 = document.getElementById("diapo2");
     var diapo3 = document.getElementById("diapo3");
+    var diapo4 = document.getElementById("diapo4");
     var diapo = parseInt(sessionStorage.getItem('diapo'));
     var diapo = diapo + 1;
 
 
-    if (diapo > 3) {
+    if (diapo > 4) {
         alert("Pas de page après. ");
-        var diapo = 3;
+        var diapo = 4;
     }
     else {
         if (diapo === 1){
             diapo1.style.display = "block";
             diapo2.style.display = "none";
+            diapo3.style.display = "none";
         }
         if (diapo === 2) {
             diapo2.style.display = "block";
             diapo1.style.display = "none";
+            diapo3.style.display = "none";
         }
         if (diapo === 3) {
             diapo3.style.display = "block";
+            diapo2.style.display = "none";
+            diapo1.style.display = "none";
+        }
+        if (diapo === 4) {
+            diapo4.style.display = "block";
+            diapo3.style.display = "none";
             diapo2.style.display = "none";
             diapo1.style.display = "none";
         }
