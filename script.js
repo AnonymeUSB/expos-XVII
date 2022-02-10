@@ -44,7 +44,7 @@ function fleche_droite (){
 
     if (diapo > 3) {
         alert("Pas de page après. ");
-        var diapo = 2;
+        var diapo = 3;
     }
     else {
         if (diapo === 1){
