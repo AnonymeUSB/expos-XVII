@@ -11,11 +11,16 @@
     src: url("AlexBrush-Regular.ttf");
    }
    
-
-#titre_expos {
+#titre_container{
+    text-align: center;
     position: absolute;
     top: 75%;
-    left: 41%;
+    left: 32%;
+    width: 35%;
+    height: 22%;
+}
+
+#titre_expos {
     font-family: "Alex Brush";
     font-size: 500%;
     color: white;
