@@ -112,3 +112,9 @@
     min-height: 35%;
     text-align: left;
 }
+
+#desc3 {
+    position: absolute;
+    font-family: "Alex Brush";
+    font-size: 150%;
+}
