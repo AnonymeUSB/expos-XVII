@@ -45,14 +45,6 @@
     opacity: 70%;
 }
 
-#desc2 {
-    position: absolute;
-    font-family: "Alex Brush";
-    top: 25%;
-    left: 13%;
-    font-size: 150%;
-}
-
 #fleche-gauche {
     position: absolute;
     width: 5%;
@@ -82,9 +74,9 @@
 #cadre3 {
     position: absolute;
     top: 15%;
-    left: 10%;
-    width: 30%;
-    height: 60%;
+    left: 6%;
+    min-width: 30%;
+    min-height: 52%;
     box-shadow: 10px 5px 5px #000000;
     opacity: 70%;
 }
@@ -103,4 +95,20 @@
     left: 15%;
     min-width: 40%;
     min-height: 30%;
+}
+
+#desc2 {
+    font-family: "Alex Brush";
+    top: 25%;
+    left: 13%;
+    font-size: 150%;
+}
+
+#desc2_container {
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    min-width: 46%;
+    min-height: 35%;
+    text-align: left;
 }
