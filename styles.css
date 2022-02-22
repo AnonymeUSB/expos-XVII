@@ -114,7 +114,28 @@
 }
 
 #desc3 {
-    position: absolute;
     font-family: "Alex Brush";
     font-size: 150%;
+}
+
+#cadre4 {
+    position: absolute;
+    min-width: 30%;
+    min-height: 63%;
+    top: 15%;
+    left: 7%;
+    opacity: 70%;
+}
+
+#schema_t {
+    position: absolute;
+    top: 72%;
+    left: 73%;
+    opacity: 50%;
+}
+
+#desc3_container {
+    position: absolute;
+    top:27%;
+    left: 13%;
 }
