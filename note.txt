@@ -1,0 +1,11 @@
+Un théâtre et composé de plusieurs parties : 
+1. Les coulisses, en hauteur, est la partie d'un théâtre située sur les côtés et en arrière de la scène, 
+derrière les décors, cachée aux spectateurs.
+2. Le plateau, sol de la scène et des coulisses.
+3. Le côté jardin, qui désigne le côté gauche de la scène,
+et le côté cour, qui désigne le côté droit de la scène.
+4. L'Avant-scène, l'avant de la scène.
+5. Le loitain qui représente l'arrière de la scène.
+6. La gril, qui est le plafond de la scène.
+7. Les cintres forment l'espace entre le gril et la cage de scène.
+8. Cage de scène, tout ça ! ( Autrement dit, ce qu'il y a face au spéctateurs. );
