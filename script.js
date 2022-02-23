@@ -1,6 +1,8 @@
 var droite = document.getElementById("fleche_droite");
 var gauche = document.getElementById("fleche_gauche");
 var diapo1 = document.getElementById("diapo1");
+var diapo5 = document.getElementById("diapo5");
+diapo5.style.diplay = "none";
 
 sessionStorage.setItem('diapo', 1);
 
