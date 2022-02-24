@@ -175,3 +175,34 @@
     width: 50%;
     height: 50%;
 }
+
+#sources1_container {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+#cadre5 {
+    position: absolute;
+    min-width: 80%;
+    min-height: 63%;
+    top: 15%;
+    left: 7%;
+    opacity: 70%;
+}
+
+#sources1 {
+    font-family: "Alex Brush";
+    font-size: 100%;
+}
+
+#source2_container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+#sources2 {
+    font-family: "Alex Brush";
+    font-size: 100%;
+}
