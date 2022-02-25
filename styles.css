@@ -86,6 +86,7 @@
     top: 25%;
     left: 13%;
     font-size: 150%;
+    color: white;
 }
 
 #desc1_container{
@@ -102,6 +103,7 @@
     top: 25%;
     left: 13%;
     font-size: 150%;
+    color: white;
 }
 
 #desc2_container {
@@ -116,6 +118,7 @@
 #desc3 {
     font-family: "Alex Brush";
     font-size: 150%;
+    color: white;
 }
 
 #cadre4 {
